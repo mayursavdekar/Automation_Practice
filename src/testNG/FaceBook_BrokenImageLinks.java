@@ -46,7 +46,7 @@ public class FaceBook_BrokenImageLinks {
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	  driver.quit(); 
   }
 
 }

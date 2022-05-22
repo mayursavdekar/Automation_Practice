@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.OpenCart_BrokenLink">
+      <class name="testNG.DesiredCapabilities">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="f"/>
+          <include name="DCTest"/>
         </methods>
-      </class> <!-- testNG.OpenCart_BrokenLink -->
+      </class> <!-- testNG.DesiredCapabilities -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
