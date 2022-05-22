@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="mayur_suite">
+	<test name="mayur_test">
+		<classes>
+			<class name="testNG.HMS_login_logout">
+				<methods>
+					<include name="demo" />
+					<include name="beforeTest" />
+					<include name="xyz" />
+					<include name="abc" />
+					<include name="afterTest" />
+				</methods>
+			</class>
+			<class name="testNG.GoogleLanguage">
+				<methods>
+					<include name="beforeTest" />
+					<include name="ff" />
+					<include name="afterTest" />
+				</methods>
+			</class>
+			<class name="Sample">
+			<parameter name="facebookURL" value="https://facebook.com"/>
+			<parameter name="gmailURL" value="https://gmail.com"/>
+				<methods>
+					<include name="SampleMethod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

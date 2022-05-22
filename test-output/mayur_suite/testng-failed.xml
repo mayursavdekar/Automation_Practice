@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mayur_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="mayur_test(failed)">
+    <classes>
+      <class name="testNG.HMS_login_logout">
+        <methods>
+          <include name="xyz"/>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- testNG.HMS_login_logout -->
+    </classes>
+  </test> <!-- mayur_test(failed) -->
+</suite> <!-- Failed suite [mayur_suite] -->
